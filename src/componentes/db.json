@@ -1,0 +1,76 @@
+{
+  "videos": [
+    {
+      "id": "1",
+      "titulo": "Cuándo usar let, var y const?",
+      "categoria": "front-end",
+      "imagen": "./img/VideoCardFN1.png",
+      "video": "https://youtu.be/PztCEdIJITY?si=jXpZPe9oZ1KqCJhB",
+      "descripcion": "¿A veces cuando estás programando sientes dificuldades en saber en qué momento utilizar let, var o const para declarar una variable?"
+    },
+    {
+      "id": "2",
+      "titulo": "Cuándo usar let, var y const?",
+      "categoria": "front-end",
+      "imagen": "./img/videoCardFN2.png",
+      "video": "https://youtu.be/GJfOSoaXk4s?si=Zzit_9nbx0TC62Zg",
+      "descripcion": "JavaScript: ¿qué es y cómo se hizo este lenguaje que genera muchas discusiones y debates entre la gente del área de desarrollo?"
+    },
+    {
+      "id": "3",
+      "titulo": "Equipo Front End ",
+      "categoria": "front-end",
+      "imagen": "./img/VideoCardFN3.png",
+      "video": "https://youtu.be/rpvrLaBQwgg?si=MkQLL5cLowU1T7gs",
+      "descripcion": "¿Estás empezando tus estudios de Programación? ¿Te interesa todo lo que es la creación de Páginas Web Desarrollo de Softwares? "
+    },
+    {
+      "id": "5",
+      "titulo": "Spring Framework. ¿Qué es ?",
+      "categoria": "back-end",
+      "imagen": "./img/VideoCardBE1.png",
+      "video": "https://youtu.be/t-iqt1b2qqk?si=SFymRDmUI3Ov-DMN",
+      "descripcion": "¿Busca un framework  para utilizar en sus proyectos? ¿Conoce Spring Framework? "
+    },
+    {
+      "id": "4",
+      "titulo": "¿Qué es SQL y NoSQL?",
+      "categoria": "back-end",
+      "imagen": "./img/VideoCardBE2.png",
+      "video": "https://youtu.be/cLLKVd5CNLc?si=pJvLgHRtk8JY9Z_W",
+      "descripcion": "¿Cuáles son las diferencias entre una estructura de datos relacional (SQL) y una no relacional (NoSQL) "
+    },
+    {
+      "id": "7",
+      "titulo": "Simplificando tu código en Java: Conoce los enum",
+      "categoria": "back-end",
+      "imagen": "./img/VideoCardBE3.png",
+      "video": "https://youtu.be/EoPvlE85XAQ?si=iw4Y5PfdeTSgZGyM",
+      "descripcion": "¿Escribir muchas variables del tipo constantes en Java te parece un proceso tedioso y que genera muchas líneas de código? "
+    },
+    {
+      "id": "8",
+      "titulo": "¿Qué son las Soft Skills?",
+      "categoria": "innovacion y gestion",
+      "imagen": "./img/VideoCardIG1.png",
+      "video": "https://youtu.be/vhwspfvI52k?si=Fwty4uzpe-SQ9MJi",
+      "descripcion": "¿Qué son las Softskills y por qué es tan importante desarrollarlas para posicionarse en el mercado laboral?"
+    },
+    {
+      "id": "6",
+      "titulo": "7 Soft Skills más demandadas",
+      "categoria": "innovacion y gestion",
+      "imagen": "./img/VideoCardIG2.png",
+      "video": "https://youtu.be/_-9grhDhxiU?si=izxIV1iDXexPu3jq",
+      "descripcion": "Siempre estamos hablando aquí en el canal de Alura Latam sobre la importancia de las Soft Skills"
+    },
+    {
+      "id": "9",
+      "titulo": "¿Qué son las metodologias ágiles?",
+      "categoria": "innovacion y gestion",
+      "imagen": "./img/VideoCardIG3.png",
+      "video": "https://youtu.be/6N3OkLCfK-0?si=0_aqC3HRtsjwHZlZ",
+      "descripcion": "En este video nuestra invitada, Andyara, nos explicará que són las muy conocidas hoy en día metodologias ágiles"
+    }
+  ]
+}

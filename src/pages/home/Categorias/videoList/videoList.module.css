@@ -1,0 +1,25 @@
+.contenedor_videoList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(430px, 1fr)); 
+    gap: 20px; 
+    overflow: scroll; 
+    overflow-y:hidden ;
+    grid-auto-flow: column; 
+    max-width: 100%;    
+}
+
+.contenedor_videoList::-webkit-scrollbar {
+    height: 8px;  
+  }
+  
+.contenedor_videoList::-webkit-scrollbar-thumb {
+    background-color: var(--color--terciario); 
+    border-radius: 4px;
+  }
+  
+.contenedor_videoList::-webkit-scrollbar-track {
+    background-color: var(--color--primario);
+    border-radius: 4px;
+  }
+
+  

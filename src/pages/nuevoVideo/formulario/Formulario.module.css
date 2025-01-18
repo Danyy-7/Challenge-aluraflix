@@ -1,0 +1,147 @@
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    gap: 40px;
+    font-family: var(--fuente--primaria);
+}
+
+.contenedor_input {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+.contenedor_textarea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: start;
+    gap: 10px;
+    width: 100%;
+    color: var(--color--quinto);
+}
+
+.span {
+    
+    width: 80%;
+}
+
+.textarea {
+    background-color: var(--color--primario);
+    width: 80%;
+    height: 120px;
+    color: var(--color--quinto);
+    padding: 20px;
+    border-radius: 10px;
+    border-color: var(--color--primario);
+    box-shadow: 0 0 15px 0px rgba(28, 28, 28, 1);
+    outline: none;
+    margin-top: 10px;
+    
+
+}
+
+.textarea::placeholder {
+    color: var(--color--quinto);
+}
+
+.textarea:focus {
+    border-color: purple;
+}
+
+.contenedor_btn {
+    display: flex;
+    width: 100%;
+    height: 54px;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px;
+}
+
+.btn_guardar { 
+    width: 25%;
+}
+
+.btn_limpiar {
+    width: 25%;
+}
+
+.btn_limpiar:hover {
+    background-color: #2271D1;
+    color: var(--color--quinto);
+}
+
+.btn_guardar:hover {
+    background-color: #2271D1;
+    color: var(--color--quinto);
+}
+
+.modalInput {
+    display: flex;
+    border: 1px solid #2271D1;
+    border-radius: 10px;
+    color: #2271D1;
+    width: 70%;
+}
+
+.modalContenedorTextarea {
+    width: 100%;
+    color: var(--color--quinto);
+    align-items: center;
+
+}
+
+.modalTextarea {
+    background-color: #03122F;
+    width: 70%;
+    height: 120px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #2271D1;
+    box-shadow: 0 0 15px rgba(28, 28, 28, 1);
+    outline: none;
+}
+
+@media (max-width:570px){
+    .formulario{
+        margin: 30px;
+        width: 80%;
+    }
+
+    .contenedor_input{
+        display: flex;
+        width: 100% ;
+    }
+
+    .contenedor_textarea{
+        align-items: center;
+    }
+
+    .contenedor_btn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        
+    }
+
+    .btn_guardar{
+        width: 50%;
+    }
+
+    .btn_limpiar{
+        width: 50%;
+    }
+
+    .modalInput{
+        width: 70%;
+    }
+
+    .modalTextarea{
+        width: 70%;
+    }
+}
