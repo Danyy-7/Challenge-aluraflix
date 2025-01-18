@@ -43,7 +43,7 @@ const FormularioVideo = ({ handleSubmit, customClass }) => {
   };
 
   const validarTitulo = (titulo) => {
-    if (titulo.length === '') {
+    if (titulo.length >= 1) {
       return { titulo: { error: false, mensaje: "" } };
     } else {
       return { titulo: { error: true, mensaje: "El título es obligatorio" } };
@@ -51,7 +51,7 @@ const FormularioVideo = ({ handleSubmit, customClass }) => {
   };
 
   const validarImagen = (imagen) => {
-    if (imagen.length === '') {
+    if (imagen.length >= 1) {
       return { imagen: { error: false, mensaje: "" } };
     } else {
       return { imagen: { error: true, mensaje: "La imagen es obligatoria" } };
@@ -59,7 +59,7 @@ const FormularioVideo = ({ handleSubmit, customClass }) => {
   };
 
   const validarVideo = (video) => {
-    if (video.length === '') {
+    if (video.length >= 1) {
       return { video: { error: false, mensaje: "" } };
     } else {
       return { video: { error: true, mensaje: "El enlace del video es obligatorio" } };
