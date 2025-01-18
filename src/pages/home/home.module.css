@@ -1,8 +1,0 @@
-@media (max-width:570px) {
-    
-    .contenedor_home{
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
-}
